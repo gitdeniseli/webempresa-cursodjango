@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Historia La Cafetería</span>
+              <span class="section-heading-lower">Una Tradición Nicaragüense</span>
+            </h2>
+            <p>En el corazón de Nicaragua, en la encantadora ciudad de León, se encuentra "La Cafetería", una cafetería que no solo ofrece deliciosos aromas y sabores, sino que también tiene una historia fascinante que contar.</p>
+            <p>Fundada hace más de tres décadas por Don Pedro, un apasionado del café, "La Cafetería" comenzó como un modesto puesto callejero. Con el tiempo, su dedicación y amor por el café captaron la atención de los lugareños y visitantes por igual, convirtiéndolo en un punto de referencia en la ciudad.</p>
+            <p>Con el paso de los años, la cafetería creció en popularidad, atrayendo a más personas con su ambiente acogedor y sus exquisitas mezclas de café, todas seleccionadas de las mejores plantaciones de Nicaragua. Don Pedro, junto con su familia, continuó innovando y expandiendo el negocio, introduciendo nuevos métodos de preparación y ofreciendo una variedad de productos de panadería y repostería que complementaban perfectamente el aroma del café recién tostado.</p>
+            <p>Hoy en día, "La Cafetería" sigue siendo un lugar de encuentro para amigos, familias y amantes del café de todo el mundo. Su historia de pasión, tradición y excelencia se ha convertido en parte del tejido de la comunidad, y cada taza de café sirve como un tributo al legado de Don Pedro y su dedicación a la cultura del café en Nicaragua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
